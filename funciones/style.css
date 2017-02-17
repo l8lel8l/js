@@ -1,0 +1,37 @@
+@import "reset.css";
+header nav{
+    background-color: rgb(182, 73, 38);
+}
+.menuPrincipal ul li{
+    float:left;
+    padding: 10px;
+}
+.menuPrincipal ul li:hover{
+    background-color: rgb(255,176, 59);
+}
+body section, body aside{
+    height: 70vh;
+    padding: 10px;
+    display: inline-block;
+}
+body section{
+    width: 80%;
+    background-color:rgb(70, 137, 102);
+    padding: 20px 10px;
+    }
+body aside{
+    width:20%;
+    background-color: red;
+}
+header{
+    font-size: 0;
+}
+footer{
+    background-color: rgb(255, 240, 165);
+    padding: 10px;
+}
+h1{
+    padding: 10px;
+    background-color: rgb(182, 73, 38);
+    display: inline-block;
+}
